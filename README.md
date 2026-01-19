@@ -2,17 +2,17 @@
 
 ```
 rtl2aig/
-├─ testcases/                 # 测试用例 Verilog 文件
+├─ testcases/                 
 │   └─ simple_fsm.v
 ├─ openroad/                
 │   └─ dff2ff.v
-├─ wrappers/                  # Wrapper 自动生成目录（可删除）
-├─ aags/                      # 中间 AAG 文件生成目录（可删除）
-├─ cpp/                       # 最终生成的 C++ 文件输出目录
-├─ wrapper.py                 # 生成 wrapper Verilog 的脚本
-├─ rtl_to_aag.py              # Verilog 转 AAG 的脚本
-├─ aag_to_cpp.py              # AAG 转 C++ 的脚本
-├─ rtl2cpp_1bitsel.py         # 自动化运行脚本，调用 wrapper + rtl_to_aag + aag_to_cpp
+├─ wrappers/                  
+├─ aags/                      
+├─ cpp/                       # Final generated C++ file output directory
+├─ wrapper.py                 
+├─ rtl_to_aag.py              
+├─ aag_to_cpp.py              
+├─ rtl2cpp_1bitsel.py         # Automation script that calls wrapper + rtl_to_aag + aag_to_cpp
 └─ README.md                  
 ```
 
